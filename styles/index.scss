@@ -1,0 +1,44 @@
+$first: #b0c4de;
+$second: #333;
+
+html, body {
+  min-width: 720px;
+  background-color: #fff;
+  div, p {
+    color: $second;
+  }
+
+  nav {
+    background-color: $first;
+    margin-bottom: 1em;
+  }
+
+  .Link {
+    cursor: pointer;
+  }
+
+  .paneHeader {
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.5em;
+  }
+
+  .ApiLinks {
+    margin-top: 1em;
+    padding: 1em;
+    border-top: 3px solid green;
+  }
+
+  .align-left {
+    text-align: left;
+  }
+
+  td.DataCell {
+    max-width: 185px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 1rem;
+    border: 1px solid #ddd;
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+client/
+server/
+node_modules/
